@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Filter Product</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="main-container">
+      <div class="filter-container">
+        <div class="search-container">
+          <input type="text" placeholder="Search" id="search-input" />
+          <button class="btn" id="search-btn">Search</button>
+        </div>
+
+        <div class="category-cantainer">
+          <button class="category-btn active" data-category="all">
+            All Product
+          </button>
+          <button class="category-btn" data-category="elctronics">
+            Electronics
+          </button>
+          <button class="category-btn" data-category="clothing">
+            Clothing
+          </button>
+          <button class="category-btn" data-category="home">Home Garden</button>
+        </div>
+      </div>
+      <div class="product-list" id="product-list">
+        <div class="product-item" data-category="elctronics">
+          <h3>iPhone 15 Pro Max</h3>
+          <p>
+            Latest flagship smartphone with powerful A17 Bionic chip and
+            ProMotion display
+          </p>
+        </div>
+        <div class="product-item" data-category="elctronics">
+          <h3>Samsung Galaxy S24 Ultra</h3>
+          <p>
+            Premium Android smartphone with advanced camera system and
+            long-lasting battery
+          </p>
+        </div>
+        <div class="product-item" data-category="elctronics">
+          <h3>Sony WH-1000XM5</h3>
+          <p>
+            Industry-leading noise-canceling headphones with high-quality audio
+          </p>
+        </div>
+        <div class="product-item" data-category="elctronics">
+          <h3>LG OLED C3 Series</h3>
+          <p>
+            Stunning 4K OLED TV with perfect black levels and vibrant colors
+          </p>
+        </div>
+        <div class="product-item" data-category="home">
+          <h3>Dyson V15 Detect</h3>
+          <p>Powerful cordless vacuum cleaner with laser dust detection technology</p>
+        </div>
+        <div class="product-item" data-category="home">
+          <h3>KitchenAid Stand Mixer</h3>
+          <p>Versatile kitchen appliance for baking, mixing, and whipping</p>
+        </div>
+        <div class="product-item" data-category="home">
+          <h3>Philips Hue Smart Bulbs</h3>
+          <p>Customizable smart lighting system for your home</p>
+        </div>
+        <div class="product-item" data-category="clothing">
+          <h3>Levi's 501 Jeans</h3>
+          <p>Classic denim jeans with a timeless fit</p>
+        </div>
+        <div class="product-item" data-category="clothing">
+          <h3>Nike Air Max 90</h3>
+          <p>Iconic sneakers with comfortable cushioning and stylish design</p>
+        </div>
+        <div class="product-item" data-category="clothing">
+          <h3>North Face Denali Fleece Jacket</h3>
+          <p>Warm and cozy fleece jacket for cold weather
+        </p>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
